@@ -7,6 +7,7 @@ with open("utilities/loanapp.csv") as csvfile:
     # print(csvreader)
     # print(list(csvreader))
     for row in csvreader:
+        print("*****", row)
         name_lst.append(row[0])
         status_lst.append(row[1])
 print(name_lst)
